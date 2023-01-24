@@ -1,0 +1,12 @@
+.rent{
+    display: block;
+    margin-top: 150px;
+}
+.rnt-head{
+    font-size:28px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    
+}
