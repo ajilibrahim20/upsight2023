@@ -238,17 +238,28 @@ img{
 }
 
 .testimonial-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
   width: 600px;
-  padding: 30px;
+  padding: 20px;
   transition: left 1s ease;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
 }
-
+/* .test-hd{
+  font-size:28px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 50px;
+} */
 .testimonial-text {
   font-size: 1.2rem;
   font-style: italic;
 }
 
 .testimonial-author {
+  width: 100%;
   font-size: 1.1em;
   font-weight: bold;
   text-align: right;
