@@ -182,9 +182,10 @@ img{
 
 .banner {
   width: 100%;
-  height: 180px;
+  
   background-size: cover;
-  padding-top: 30px;
+  margin-top: 30px;
+  margin-left: 16%;
   /* background-position: center; */
 }
 .drop:hover .drop-down-content{
@@ -359,7 +360,7 @@ img{
 
 /*========== HOME ==========*/
 .home__container{
-  height: calc(100vh - var(--header-height));
+  /* height: calc(10vh - var(--header-height)); */
   align-content: center;
 }
 
@@ -376,7 +377,7 @@ img{
 }
 
 .home__img{
-  margin-top: 30px;
+  margin-top: 80px;
   width: 300px;
   justify-self: center;
 }
